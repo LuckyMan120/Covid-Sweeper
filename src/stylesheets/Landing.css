@@ -1,0 +1,84 @@
+h2 {
+  font-variant: small-caps;
+  font-size: 4rem;
+  letter-spacing: 0.3rem;
+  font-weight: 800;
+  text-align: center;
+  background: -webkit-linear-gradient(
+    90deg,
+    #f9c271 15%,
+    #aaddff 53%,
+    hsl(204, 100%, 60%) 53%,
+    #5aa1ff 91%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 4px transparent;
+  color: #132257;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+a {
+  height: 2.2rem;
+  width: 100px;
+}
+
+.icon {
+  margin: 0 2rem;
+  color: #0e1a49;
+  stroke-width: 7;
+  outline: none;
+  transform: scale(1.4);
+  transition-property: transform, color;
+  transition-duration: 0.25s;
+}
+
+.icon:hover {
+  color: #d41b53;
+  transform: scale(1.75);
+}
+
+.virus-icon {
+  width: 3rem;
+  margin: 2rem 1rem;
+  color: #0e1a49;
+  stroke: #f5ddb9;
+  stroke-width: 8;
+  transform: scale(1.4);
+}
+
+button {
+  transition-property: all !important;
+  transition-duration: 0.25s !important;
+}
+
+button:hover {
+  border-color: whitesmoke !important;
+  transform: scale(1.02);
+  color: whitesmoke !important;
+  background: -webkit-linear-gradient(
+    240deg,
+    rgb(218, 28, 139),
+    rgba(245, 3, 104, 0.612),
+    rgb(248, 9, 69)
+  );
+}
+
+button.blue:hover {
+  background: -webkit-radial-gradient(
+    /* 260deg, */ /* rgb(28, 88, 218), */ rgba(8, 130, 187, 0.938),
+    rgb(4, 75, 168)
+  );
+}
+
+button.red:hover {
+  background: -webkit-radial-gradient(
+    /* 240deg, */ /* rgb(218, 28, 139), */ rgba(255, 69, 119, 0.589),
+    rgb(248, 9, 69),
+    rgb(218, 2, 56)
+  );
+}

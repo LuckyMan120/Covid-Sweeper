@@ -1,0 +1,12 @@
+.game-status {
+  color: white;
+  /* font-size: 0.5rem; */
+  font: small-caps 43px/150% 'Segoe UI', Frutiger, 'Frutiger Linotype',
+    'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+  justify-content: space-evenly;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
